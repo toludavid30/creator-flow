@@ -1,0 +1,94 @@
+@media (max-width: 400px){
+    #Navbar{
+        width: 90%;
+        .leftNav{
+           width: 35%;
+            .logo{
+                height: 25px;
+                width: 25px;
+                /* width: 100%; */
+                img{
+                    height: 100%;
+                    width: 100%;
+                }  
+            } 
+            .logoText{
+                    height: 40%;
+                    padding: 10% 0;
+                    font-size: smaller;
+                }
+        }
+        .centerNav{
+            display: none;
+        }
+        .rightNav{
+            display: flex;
+            align-items: center;
+            .getStarted{
+                display: none;
+            }
+            .toggle{
+                display: block;
+                background: -webkit-linear-gradient(#BB96FF,#9B73E4, #673AB7);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+@media (max-width: 470px){
+    #Navbar{
+        width: 90%;
+        .leftNav{
+           width: 35%;
+            .logo{
+                height: 25px;
+                width: 25px;
+                /* width: 100%; */
+                img{
+                    height: 100%;
+                    width: 100%;
+                }  
+            } 
+            .logoText{
+                    height: 45%;
+                    padding: 12% 0;
+                    font-size: smaller;
+                }
+        }
+        .centerNav{
+            display: none;
+        }
+        .rightNav{
+            display: flex;
+            align-items: center;
+            .getStarted{
+                display: none;
+            }
+            .toggle{
+                display: block;
+                background: -webkit-linear-gradient(#BB96FF,#9B73E4, #673AB7);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    #Navbar{
+        .leftNav{
+           width: 22%; 
+        }
+        .centerNav{
+            width: 45%;
+            a{
+                font-size: smaller;
+            }
+        }
+        .rightNav{
+            width: 25%;
+        }
+    }
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+#heroPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90dvh;
+    .textContainer{
+        width: 35%;
+        height: 40dvh;
+        margin: 0 auto;
+        .typeFace{
+            text-align: center;
+                    background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+        }
+    }
+    .heroButtons{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        .button2{
+                background-color: #A372FF;
+                width: 40%;
+                font-size: smaller;
+                box-shadow:  12px 12px 24px #6cb1e9,
+                -12px -12px 24px #ffffff;
+                span{
+                    color: #673AB7;
+                }
+                
+            }
+            .button1{
+                /* background-color: ; */
+                background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+                width: 40%;
+                font-size: smaller;
+                box-shadow:  12px 12px 24px #6cb1e9,
+                -12px -12px 24px #ffffff;
+
+            }
+    }
+    .socialsLogoWrap{
+        height: 50dvh;
+        width: 50%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+#section2{
+    background-color: #A372FF;
+    height: 90dvh;
+    .sectionHeader{
+        h4{
+            text-align: center;
+            background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+        }
+    }
+    .sectionBody{
+        height: 90%;
+        /* display: flex; */
+        .leftBoxes{
+            height: 100%;
+            width: 55%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 30dvh);
+            .box{
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .boxNumber{
+                    width: 3vw;
+                    font-size: smaller;
+                    text-align: center;
+                    height: auto;
+                    background-color: #A372FF;
+                    border-radius: 100%;
+                }
+                p{
+                    font-size: smaller;
+                }
+                .earnLink{
+                    /* text-decoration: none; */
+                    color: white;
+                    background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+                    border-radius: 100%;
+                }
+            }.box3{
+                    grid-column: span 2;
+                }
+        }
+        .rightBox{
+           height: 63dvh;
+            width: 40%; 
+            background-image: url(/public/67278\ 1.png);
+            color: white;
+            .startButton{
+                color: white;
+                font-size: smaller;
+                background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+            }
+        }
+    }
+}
+
+#productSection{
+    .sectionWrapper{
+        height: 90dvh;
+        .headerWrap{
+            h4{
+            text-align: center;
+            background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+        }
+        }
+        .sectionBody{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 25dvh);
+            .box{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                box-shadow:  7px 7px 10px #c5c5c5,
+                -7px -7px 10px #fbfbfb;
+
+            }
+
+        }
+
+        .sectionButton{
+            text-align: center;
+            a{
+                color: white;
+                background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+            }
+        }
+    }
+}
+}

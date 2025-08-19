@@ -1,0 +1,221 @@
+@media (max-width: 400px){
+    #heroPage{
+        height: 60dvh;
+        justify-content: space-between;
+        .textContainer{
+            width: 75%;
+            p{
+                font-size: small;
+            }
+            .heroButtons{
+                width: 90%;
+                a{
+                    font-size: xx-small;
+                }
+            }
+        }
+        .socialsLogoWrap{
+        height: 30dvh;
+        width: 70%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    }
+
+    #section2{
+        height: auto;
+        .sectionHeader{
+        h4{
+            width: 75%;
+            text-align: start;
+        }
+        }
+        .sectionBody{
+        /* height: 90%; */
+        flex-direction: column;
+        .leftBoxes{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            .box{
+                height: 23dvh;
+                .boxNumber{
+                width: 10dvw;
+            }
+            }
+            
+        }
+        .rightBox{
+            width: 100%;
+            height: 40dvh;
+        }
+        }
+    }
+
+    #productSection{
+        .sectionWrapper{
+           height: auto;
+        .headerWrap{
+            h4{
+            width: 75%;
+            text-align: start;
+        }
+        }
+        .sectionBody{
+            display: flex;
+            flex-direction: column;
+            .box{
+                width: 100%;
+                height: 20dvh;
+            }
+        }
+        .sectionButton{
+            a{
+                font-size: x-small;
+            }
+        } 
+        }
+        
+    }
+}
+
+@media (max-width: 470px){
+    #heroPage{
+        height: 60dvh;
+        justify-content: space-between;
+        .textContainer{
+            width: 75%;
+            p{
+                font-size: small;
+            }
+            .heroButtons{
+                width: 90%;
+                a{
+                    font-size: xx-small;
+                }
+            }
+        }
+        .socialsLogoWrap{
+        height: 35dvh;
+        width: 80%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    }
+
+    #section2{
+        height: auto;
+        .sectionHeader{
+        h4{
+            width: 75%;
+            text-align: start;
+        }
+        }
+        .sectionBody{
+        /* height: 90%; */
+        flex-direction: column;
+        .leftBoxes{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            .box{
+                height: 23dvh;
+                .boxNumber{
+                width: 10dvw;
+            }
+            }
+            
+        }
+        .rightBox{
+            width: 100%;
+            height: 40dvh;
+        }
+        }
+    }
+
+    #productSection{
+        .sectionWrapper{
+           height: auto;
+        .headerWrap{
+            h4{
+            width: 75%;
+            text-align: start;
+        }
+        }
+        .sectionBody{
+            display: flex;
+            flex-direction: column;
+            .box{
+                width: 100%;
+                height: 20dvh;
+            }
+        }
+        .sectionButton{
+            a{
+                font-size: x-small;
+            }
+        } 
+        }
+        
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    #heroPage{
+        height: 60dvh;
+        justify-content: space-between;
+        .textContainer{
+            width: 50%;
+            p{
+                font-size: small;
+            }
+            .heroButtons{
+                width: 60%;
+                a{
+                    font-size: xx-small;
+                }
+            }
+        }
+        .socialsLogoWrap{
+        height: 50dvh;
+        width: 75%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    }
+
+    #section2{
+        height: auto;
+        .sectionBody{
+            .leftBoxes{
+            grid-template-rows: repeat(2, 20dvh);
+            .box{
+                .boxNumber{
+                width: 5dvw;
+            }
+            }
+        }
+        .rightBox{
+            height: 41dvh;
+        }
+        }
+
+    }
+
+    #productSection{
+    .sectionWrapper{
+        height: 50dvh;
+        .sectionBody{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 20dvh);
+        }
+    }
+    }
+}
