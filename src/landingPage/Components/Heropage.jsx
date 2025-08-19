@@ -24,7 +24,7 @@ const Heropage = () => {
             </div>
         </div>
         <div className="socialsLogoWrap container">
-            <img src="/public/60192eac-866f-419b-a3b1-2835a231a5ae-converted 1.png" alt="" />
+            <img src="/60192eac-866f-419b-a3b1-2835a231a5ae-converted 1.png" alt="" />
         </div>
     </div>
   )
