@@ -40,7 +40,7 @@
             width: 100%;
             flex-direction: column;
             .box{
-                height: 23dvh;
+                height: 25dvh !important;
                 .boxNumber{
                 width: 10dvw;
             }
@@ -123,7 +123,7 @@
             width: 100%;
             flex-direction: column;
             .box{
-                height: 23dvh;
+                height: 25dvh;
                 .boxNumber{
                 width: 10dvw;
             }
