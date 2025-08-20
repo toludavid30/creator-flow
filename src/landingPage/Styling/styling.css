@@ -118,7 +118,7 @@
 
 #productSection{
     .sectionWrapper{
-        height: 90dvh;
+        height: 80dvh;
         .headerWrap{
             h4{
             text-align: center;
@@ -151,4 +151,64 @@
         }
     }
 }
+
+#userSection{
+    height: 80dvh;
+    /* width: 100vw; */
+    background-color: #A372FF;
+    .sectionWrapper{
+        width: 100%;
+        /* position: ; */
+        .sectionHeader{
+            h4{
+            text-align: start;
+            background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+        }
+        }
+        .sectionBody{
+            display: flex;
+            /* width: 93vw; */
+            overflow-x: auto;
+            scrollbar-width: none;
+            .box{
+                height: 45dvh;
+                width: 25vw;
+                flex-shrink: 0;
+                .cardPic{
+                    height: 55%;
+                    width: 80%;
+                    img{
+                   height: 100%;
+                   width: 100%; 
+                }
+                }
+                .cardInfo{
+                    text-align: center;
+                    height: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    h6{
+                        background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                    }
+                    .boxButton{
+                        color: white;
+                        width: 40%;
+                        margin: 0 auto;
+                        font-size: smaller;
+                        background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+                    }
+                }
+            }
+        }
+        .sectionBody::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+
 }
