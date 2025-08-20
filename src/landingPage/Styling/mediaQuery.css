@@ -90,8 +90,14 @@
             } */
             .sectionBody{
                 .box{
-                    height: 38vh;
+                    height: 40vh !important;
                     width: 60vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .cardPic{
+                        height: 50%;
+                    }
                     .cardInfo{
                         .boxButton{
                             /* font-size: x-small; */
@@ -195,8 +201,14 @@
             } */
             .sectionBody{
                 .box{
-                    height: 38vh;
+                    height: 40vh;
                     width: 60vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .cardPic{
+                        height: 50%;
+                    }
                     .cardInfo{
                         .boxButton{
                             /* font-size: x-small; */
@@ -276,7 +288,7 @@
                 .box{
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-evenly;
+                    justify-content: space-around;
                     height: 35vh;
                     width: 50vw;
                     .cardInfo{
