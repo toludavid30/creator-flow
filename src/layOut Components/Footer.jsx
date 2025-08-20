@@ -20,9 +20,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="quickLinks">
-          <h5>
+          <h6>
             Quick Links 
-          </h5>
+          </h6>
           <ul>
             <li className=""><a href="" className="text-decoration-none text-light">Home</a></li>
             <li className=""><a href="" className="text-decoration-none text-light">How it works</a></li>
@@ -32,9 +32,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className="socials">
-          <h5>
+          <h6>
             Social Media 
-          </h5>
+          </h6>
           <ul>
             <li className=""><a href="" className="text-decoration-none text-light">Instagram</a></li>
             <li className=""><a href="" className="text-decoration-none text-light">Facebook</a></li>
@@ -44,9 +44,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className="connected w-25">
-          <h5>
+          <h6>
             Stay Connected
-          </h5>
+          </h6>
           <p>
             Join our community – get tips, resources, and updates straight to your inbox.
           </p>
