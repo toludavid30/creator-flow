@@ -35,7 +35,7 @@ const Users = () => {
                     <div className="cardPic container">
                         <img src="/Stylists.png" alt="" />
                     </div>
-                    <div className="cardInfo p-2">
+                    <div className="cardInfo p-1 p-md-2">
                         <h6>
                             Stylists and Makeup Artists
                         </h6>
