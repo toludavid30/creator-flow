@@ -64,4 +64,47 @@
             }
         }
     }
+
+    #Footer{
+        height: auto;
+        background-color: #421a86;
+        color: white;
+        .wrapper{
+            .flowDiv{
+                .logo{
+                img{
+                    height: 18px;
+                    width: 18px;
+                }
+            }
+        }
+        .quickLinks{
+            ul{
+                padding: 0;
+                list-style: none;
+                a{
+                    font-size: smaller;
+                }
+            }
+        }
+        .socials{
+            ul{
+                padding: 0;
+                list-style: none;
+                a{
+                    font-size: smaller;
+                }
+            }
+        }
+        .connected{
+            a{
+                background-color: #A372FF; 
+                font-size: smaller;   
+            }
+        }
+        p{
+            font-size: smaller;
+        }
+    }
+}
 }

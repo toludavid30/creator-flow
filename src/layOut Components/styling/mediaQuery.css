@@ -35,6 +35,19 @@
             }
         }
     }
+
+    #Footer{
+        .wrapper{
+            flex-direction: column;
+            .flowDiv{
+                width: 80% !important;
+            }
+            .connected{
+                width: 80% !important;
+            }
+
+        }
+    }
 }
 
 @media (max-width: 470px){
@@ -72,6 +85,19 @@
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
             }
+        }
+    }
+
+    #Footer{
+        .wrapper{
+            flex-direction: column;
+            .flowDiv{
+                width: 80% !important;
+            }
+            .connected{
+                width: 80% !important;
+            }
+
         }
     }
 }
