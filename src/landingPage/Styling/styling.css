@@ -252,4 +252,20 @@
         }
     }
 }
+
+#JoinSection{
+    text-align: center;
+    h4{
+        background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+    }
+    a{
+        width: 20%;
+        background-image: linear-gradient(to right, #BB96FF,#9B73E4, #673AB7);
+        color: white;
+        /* font-size: smaller; */
+        margin: 0 auto;
+    }
+}
 }

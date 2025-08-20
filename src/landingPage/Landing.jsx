@@ -4,6 +4,7 @@ import ThreeStepsSec from './Components/3stepsSec'
 import Products from './Components/Products'
 import Users from './Components/Users'
 import UserCategory from './Components/UserCategory'
+import JoinSection from './Components/JoinSection'
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
         <Products/>
         <Users/>
         <UserCategory/>
+        <JoinSection/>
     </>
   )
 }

@@ -127,7 +127,7 @@
         }
         .sectionBody{
             flex-direction: column;
-            gap: 7vh;
+            gap: 9vh;
             .Box{
                 margin: 0 auto;
                 width: 75dvw;
@@ -266,7 +266,7 @@
         }
         .sectionBody{
             flex-direction: column;
-            gap: 7vh;
+            gap: 9vh;
             .Box{
                 margin: 0 auto;
                 width: 75dvw;
@@ -274,6 +274,13 @@
             }
         }
     }
+    }
+
+    #JoinSection{
+        a{
+            font-size: smaller;
+            width: 50%;
+        }
     }
 }
 
@@ -385,5 +392,12 @@
             }
         }
     }
+    }
+
+    #JoinSection{
+        a{
+            font-size: smaller;
+            width: 30%;
+        }
     }
 }
