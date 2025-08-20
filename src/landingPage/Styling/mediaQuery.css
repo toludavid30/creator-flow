@@ -114,6 +114,28 @@
             }
         }
     }
+
+    #categorySection{
+    height: auto;
+    .sectionWrapper{
+        .sectionHeader{
+            flex-direction: column;
+            p{
+                width: 100%;
+                font-size: smaller;
+            }
+        }
+        .sectionBody{
+            flex-direction: column;
+            gap: 7vh;
+            .Box{
+                margin: 0 auto;
+                width: 75dvw;
+                height: 30dvh;
+            }
+        }
+    }
+    }
 }
 
 @media (max-width: 470px){
@@ -231,6 +253,28 @@
             }
         }
     }
+
+    #categorySection{
+    height: auto;
+    .sectionWrapper{
+        .sectionHeader{
+            flex-direction: column;
+            p{
+                width: 100%;
+                font-size: smaller;
+            }
+        }
+        .sectionBody{
+            flex-direction: column;
+            gap: 7vh;
+            .Box{
+                margin: 0 auto;
+                width: 75dvw;
+                height: 30dvh;
+            }
+        }
+    }
+    }
 }
 
 @media (min-width: 500px) and (max-width: 800px){
@@ -312,5 +356,34 @@
                 }
             }
         }
+    }
+
+    #categorySection{
+    height: auto;
+    .sectionWrapper{
+        .sectionHeader{
+            /* flex-direction: column; */
+            p{
+                width: 100%;
+                font-size: smaller;
+            }
+        }
+        .sectionBody{
+            /* flex-direction: column; */
+            /* gap: 7vh; */
+            .Box{
+                margin: 0 auto;
+                width: 25dvw;
+                height: 22dvh;
+                .cardPic{
+                    height: 45%;
+                    width: 80%;
+                }
+                .cardInfo{
+                    height: 40%;
+                }
+            }
+        }
+    }
     }
 }

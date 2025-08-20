@@ -210,5 +210,46 @@
     }
 }
 
+#categorySection{
+    height: auto;
+    .sectionWrapper{
+        .sectionHeader{
+            h4{
+                background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+            }
+        }
+        .sectionBody{
+            .Box{
+                height: 40dvh;
+                width: 25dvw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .cardPic{
+                    height: 55%;
+                    width: 70%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .cardInfo{
+                    height: 30%;
+                    h5{
+                        text-align: center;
+                        background: -webkit-linear-gradient(#a57eed,#553297, #421a86);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                    }
+                    p{
+                        text-align: center;
+                    }
 
+                }
+            }
+        }
+    }
+}
 }
