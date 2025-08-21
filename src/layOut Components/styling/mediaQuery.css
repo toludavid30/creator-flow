@@ -1,4 +1,4 @@
-@media (max-width: 400px){
+@media (max-width: 550px){
     #Navbar{
         width: 90%;
         .leftNav{
@@ -50,7 +50,7 @@
     }
 }
 
-@media (max-width: 470px){
+@media (min-width:550px) and (max-width: 750px){
     #Navbar{
         width: 90%;
         .leftNav{
@@ -105,7 +105,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 800px){
+@media (min-width: 750px) and (max-width: 1050px){
     #Navbar{
         .leftNav{
            width: 22%; 

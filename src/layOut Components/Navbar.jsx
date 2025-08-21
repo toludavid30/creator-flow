@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./styling/styling.css"
 import "./styling/mediaQuery.css"
 
 const Navbar = () => {
+    const [navExpand, setNavExpand] = useState(false)
   return (
     <div className='pt-2 pt-md-4'>
         <div id='Navbar' className="navWrapper p-2 container">
@@ -43,6 +44,10 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+
+        {/* <div className="expandContainer d-none">
+
+        </div> */}
     </div>
   )
 }
