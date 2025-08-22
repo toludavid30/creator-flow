@@ -33,7 +33,7 @@ const Users = () => {
                 </div>
                 <div href='' className="box podcasters bg-light rounded-4 p-2">
                     <div className="cardPic container">
-                        <img src="/public/Creative_Teamwork_in_Modern_Office-removebg-preview.png" alt="" />
+                        <img src="/Creative_Teamwork_in_Modern_Office-removebg-preview.png" alt="" />
                     </div>
                     <div className="cardInfo p-1 p-md-2">
                         <h6>
@@ -65,7 +65,7 @@ const Users = () => {
                 </div>
                 <div href='' className="box podcasters bg-light rounded-4 p-2">
                     <div className="cardPic container">
-                        <img src="/public/Quality_Rating_Illustration-removebg-preview.png" alt="" />
+                        <img src="/Quality_Rating_Illustration-removebg-preview.png" alt="" />
                     </div>
                     <div className="cardInfo p-2">
                         <h6>
