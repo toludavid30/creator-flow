@@ -33,6 +33,22 @@ const Users = () => {
                 </div>
                 <div href='' className="box podcasters bg-light rounded-4 p-2">
                     <div className="cardPic container">
+                        <img src="/public/Creative_Teamwork_in_Modern_Office-removebg-preview.png" alt="" />
+                    </div>
+                    <div className="cardInfo p-1 p-md-2">
+                        <h6>
+                            Educational Content Creators
+                        </h6>
+                        <p>
+                            Enlighten the World
+                        </p>
+                        <a href="https://kaida-19.github.io/cfacademy/#welcome" className='btn btn-small boxButton rounded-5'>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div href='' className="box podcasters bg-light rounded-4 p-2">
+                    <div className="cardPic container">
                         <img src="/podcasters.png" alt="" />
                     </div>
                     <div className="cardInfo p-2">
@@ -42,7 +58,23 @@ const Users = () => {
                         <p>
                             Grow your Audience
                         </p>
-                        <a href="" className='btn btn-small boxButton rounded-5'>
+                        <a href="https://visionthevoice.vercel.app/" className='btn btn-small boxButton rounded-5'>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div href='' className="box podcasters bg-light rounded-4 p-2">
+                    <div className="cardPic container">
+                        <img src="/public/Quality_Rating_Illustration-removebg-preview.png" alt="" />
+                    </div>
+                    <div className="cardInfo p-2">
+                        <h6>
+                            Product Reviewer
+                        </h6>
+                        <p>
+                            Instigate Growth
+                        </p>
+                        <a href="https://productor-dashboard.vercel.app/" className='btn btn-small boxButton rounded-5'>
                             Learn More
                         </a>
                     </div>
@@ -58,7 +90,7 @@ const Users = () => {
                         <p>
                             Showcase Creativity
                         </p>
-                        <a href="" className='btn btn-small boxButton rounded-5'>
+                        <a href="https://beautyhub-six.vercel.app/" className='btn btn-small boxButton rounded-5'>
                             Learn More
                         </a>
                     </div>
