@@ -17,6 +17,22 @@ const Users = () => {
             <div className="sectionBody gap-3 py-4">
                 <div href='' className="box podcasters bg-light rounded-4 p-2">
                     <div className="cardPic container">
+                        <img src="/dev_bro-removebg-preview.png" alt="" />
+                    </div>
+                    <div className="cardInfo p-1 p-md-2">
+                        <h6>
+                            Tech Professionals
+                        </h6>
+                        <p>
+                            Design and Create the Future
+                        </p>
+                        <a href="https://scriptra.netlify.app/#" className='btn btn-small boxButton rounded-5'>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div href='' className="box podcasters bg-light rounded-4 p-2">
+                    <div className="cardPic container">
                         <img src="/podcasters.png" alt="" />
                     </div>
                     <div className="cardInfo p-2">
@@ -27,22 +43,6 @@ const Users = () => {
                             Grow your Audience
                         </p>
                         <a href="" className='btn btn-small boxButton rounded-5'>
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-                <div href='' className="box podcasters bg-light rounded-4 p-2">
-                    <div className="cardPic container">
-                        <img src="/dev_bro-removebg-preview.png" alt="" />
-                    </div>
-                    <div className="cardInfo p-1 p-md-2">
-                        <h6>
-                            Tech Professionals
-                        </h6>
-                        <p>
-                            Design and Create the future
-                        </p>
-                        <a href="https://scriptra.netlify.app/#" className='btn btn-small boxButton rounded-5'>
                             Learn More
                         </a>
                     </div>
