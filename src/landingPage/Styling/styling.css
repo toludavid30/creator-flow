@@ -268,4 +268,9 @@
         margin: 0 auto;
     }
 }
+
+.btn:hover{
+    scale: 1.1;
+    transition: ease-out 1s;
+}
 }
