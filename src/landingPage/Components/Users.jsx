@@ -24,7 +24,7 @@ const Users = () => {
                             Tech Professionals
                         </h6>
                         <p>
-                            Design and Cregitate the Future
+                            Design and Create the Future
                         </p>
                         <a href="https://scriptra.netlify.app/#" className='btn btn-small boxButton rounded-5'>
                             Learn More
