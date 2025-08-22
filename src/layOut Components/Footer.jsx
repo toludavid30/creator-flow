@@ -24,11 +24,11 @@ const Footer = () => {
             Quick Links 
           </h6>
           <ul>
-            <li className=""><a href="" className="text-decoration-none text-light">Home</a></li>
-            <li className=""><a href="" className="text-decoration-none text-light">How it works</a></li>
-            <li className=""><a href="" className="text-decoration-none text-light">Features</a></li>
-            <li className=""><a href="" className="text-decoration-none text-light">Who it's for</a></li>
-            <li className=""><a href="" className="text-decoration-none text-light">Why us</a></li>
+            <li className=""><a href="/" className="text-decoration-none text-light">Home</a></li>
+            <li className=""><a href="#section2" className="text-decoration-none text-light">How it works</a></li>
+            <li className=""><a href="#productSection" className="text-decoration-none text-light">Features</a></li>
+            <li className=""><a href="#userSection" className="text-decoration-none text-light">Who it's for</a></li>
+            <li className=""><a href="#categorySection" className="text-decoration-none text-light">Why us</a></li>
           </ul>
         </div>
         <div className="socials">
@@ -50,7 +50,7 @@ const Footer = () => {
           <p>
             Join our community – get tips, resources, and updates straight to your inbox.
           </p>
-          <a href="" className="btn btn-small rounded-5 py-2 px-3 text-light">Subscribe Now</a>
+          <a href="/subscribe" className="btn btn-small rounded-5 py-2 px-3 text-light">Subscribe Now</a>
         </div>
       </div>
       <p className="text-center">

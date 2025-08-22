@@ -33,6 +33,22 @@ const Users = () => {
                 </div>
                 <div href='' className="box podcasters bg-light rounded-4 p-2">
                     <div className="cardPic container">
+                        <img src="/public/dev_bro-removebg-preview.png" alt="" />
+                    </div>
+                    <div className="cardInfo p-1 p-md-2">
+                        <h6>
+                            Tech Professionals
+                        </h6>
+                        <p>
+                            Dream, Design and Create the future
+                        </p>
+                        <a href="https://scriptra.netlify.app/#" className='btn btn-small boxButton rounded-5'>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div href='' className="box podcasters bg-light rounded-4 p-2">
+                    <div className="cardPic container">
                         <img src="/Stylists.png" alt="" />
                     </div>
                     <div className="cardInfo p-1 p-md-2">

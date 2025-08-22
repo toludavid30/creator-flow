@@ -7,14 +7,14 @@ const Navbar = () => {
     <div className='pt-2 pt-md-4'>
         <div id='Navbar' className="navWrapper p-2 container">
             <div className="leftNav h-100">
-                <div className="logoWrapper d-flex align-items-center h-100">
+                <a href='/' className="logoWrapper d-flex align-items-center text-decoration-none h-100">
                     <span className='logo'>
                         <img src="/Vector.png" alt="Logo" />
                     </span>
                     <h5 className='logoText'>
                         Creator Flow
                     </h5>
-                </div>
+                </a>
             </div>
             <div className="centerNav h-100">
                 <div className="quickLinks h-100 w-100">

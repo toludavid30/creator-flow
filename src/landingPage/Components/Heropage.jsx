@@ -16,7 +16,7 @@ const Heropage = () => {
                 <a className='button1 btn btn-small rounded-5 text-light py-2'>
                     Start Your Flow
                 </a>
-                <a className='button2 btn btn-small rounded-5 py-2'>
+                <a href='#userSection' className='button2 btn btn-small rounded-5 py-2'>
                     <span>
                         Explore Niches
                     </span>
