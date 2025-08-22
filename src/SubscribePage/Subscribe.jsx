@@ -1,11 +1,22 @@
 import React, { useState } from 'react'
 import "./styling.css"
 import { useForm } from 'react-hook-form'
+import * as yup from 'yup'
+import { yupResolver } from '@hookform/resolvers/yup'
 
 const Subscribe = () => {
-    const {register, handleSubmit} =useForm()
+    const subSchema = yup.object({
+      Email: yup.string().email("enter a valid email").required("email is required"),
+      name: yup.string().required("name is required").min(3, "name must be at least 3 characters")
+    })
+    const {register, handleSubmit, formState:{errors}} =useForm(
+      {
+        resolver : yupResolver(subSchema)
+      }
+    )
     const [isLoading, setIsloading] = useState(false)
     const baseUrl = "https://noderender-i690.onrender.com/auth/sendFlowSub"
+    
     const sendMessage = async(payload) =>{
         setIsloading(true)
     try {
@@ -23,7 +34,7 @@ const Subscribe = () => {
       console.log(error);
     }finally{
       setIsloading(false)
-    }
+    }   
     }
   return (
     <div id='subscribePage' className='py-5'>
@@ -32,10 +43,16 @@ const Subscribe = () => {
             <div className="form-group">
                 <label htmlFor="name">Full Name</label>
                 <input type="text" {...register("name")} className="form-control form-control-md" id="name" placeholder="Enter your name"/>
+                {errors.name && 
+                <p className='text-danger'>{errors.name.message}</p>
+                }
             </div>
             <div className="form-group">
                 <label htmlFor="email">Email</label>
-                <input type="email" {...register("email")} className="form-control form-control-md" id="email" placeholder="Enter your email"/>
+                <input type="email" {...register("Email")} className="form-control form-control-md" id="email" placeholder="Enter your email"/>
+                {errors.Email && 
+                <p className='text-danger'>{errors.Email.message}</p>
+                }
             </div>
             {/* <div className="form-group">
                 <label htmlFor="phone">Phone Number</label>
